@@ -9,7 +9,7 @@ use yii\helpers\Html;
 use yii\helpers\Json;
 
 /**
- * Tree is a Yii Framework wrapper class for jQuery Dynatree extension {@link http://wwwendt.de/tech/dynatree/index.html)
+ * Tree widget based on Fancytree extension {@link http://wwwendt.de/tech/fancytree/demo/#sample-default.html)
  *
  * Class Tree
  * @package app\widgets\tree
