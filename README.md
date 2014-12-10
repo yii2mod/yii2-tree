@@ -19,3 +19,40 @@ or add
 ```
 
 to the require section of your composer.json.
+
+Usage
+------------
+Once the extension is installed, simply add widget to your page as as follows:
+
+```php
+echo yii2mod\tree\Tree::widget([
+            'items' => [
+                ['title' => 'Category 1'],
+                ['title' => 'Category 2'],
+                [
+                    'title' => 'Category 3',
+                    'children' => [
+                        [
+                            'title' => 'Category 3.1',
+                        ],
+                        [
+                            'title' => 'Category 3.2',
+                            'children' => [
+                                [
+                                    'title' => 'Category 3.2.1',
+                                ]
+                            ],
+                            'folder' => true
+                        ],
+                    ],
+                    'folder' => true,
+                ]
+
+            ],
+            'options' => [
+                'autoCollapse' => true,
+                'clickFolderMode' => 3,
+            ]
+        ]);
+        
+```
