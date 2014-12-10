@@ -1,7 +1,7 @@
 Tree Widget for Yii 2
 =========
-Tree widget based on Fancytree extension {@link http://wwwendt.de/tech/fancytree/demo/#sample-default.html)
----------
+- Tree widget based on Fancytree extension {@link http://wwwendt.de/tech/fancytree/demo/#sample-default.html)
+
 
 Installation
 ------------
