@@ -12,19 +12,18 @@ use yii\web\AssetBundle;
  */
 class TreeAsset extends AssetBundle
 {
+
     /**
      * @var string
      */
-    public $sourcePath = '@bower/dynatree';
-
+    public $sourcePath = '@bower';
 
     /**
      * @var array
      */
     public $js = [
-        'jquery/jquery-ui.custom.js',
-        'jquery/jquery.cookie.js',
-        'dist/jquery.dynatree.js',
+        'jquery-ui/jquery-ui.js',
+        'fancytree/dist/jquery.fancytree.js',
     ];
 
     /**
@@ -45,6 +44,7 @@ class TreeAsset extends AssetBundle
  */
 class TreeCssAsset extends AssetBundle
 {
+
     /**
      * @var string
      */
@@ -54,7 +54,7 @@ class TreeCssAsset extends AssetBundle
      * @var array
      */
     public $css = [
-        'css/ui.dynatree.css',
+        'css/ui.fancytree.css',
     ];
 
 }

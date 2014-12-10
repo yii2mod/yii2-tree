@@ -50,7 +50,7 @@ class Tree extends Widget
      */
     public function run()
     {
-        $this->options['children'] = $this->items;
+        $this->options['source'] = $this->items;
         echo Html::tag('div', '', ['id' => $this->id]);
         $this->registerAssets();
     }
@@ -62,7 +62,7 @@ class Tree extends Widget
     {
         $view = $this->getView();
         TreeAsset::register($view);
-        $js = '$("#' . $this->id . '").dynatree(' . $this->getOptions() . ');';
+        $js = '$("#' . $this->id . '").fancytree(' . $this->getOptions() . ');';
         $view->registerJs($js, $view::POS_END);
     }
 

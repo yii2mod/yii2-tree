@@ -1,6 +1,6 @@
 {
     "name": "yii2mod/yii2-tree",
-    "description": "Tree widget based on jQuery Dynatree extension {@link http://wwwendt.de/tech/dynatree/index.html)",
+    "description": "Tree widget based on Fancytree extension {@link http://wwwendt.de/tech/fancytree/demo/#sample-default.html)",
     "type": "yii2-extension",
     "keywords": ["yii2", "module"],
     "license": "Apache-2.0",
@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "bower-asset/dynatree" : "*"
+        "bower-asset/fancytree" : "*"
     },
     "autoload": {
         "psr-4": {
