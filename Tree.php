@@ -2,7 +2,7 @@
 
 namespace yii2mod\tree;
 
-use yii2mod\TreeAsset;
+use yii2mod\tree\TreeAsset;
 use Yii;
 use yii\base\Widget;
 use yii\helpers\Html;
