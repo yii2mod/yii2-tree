@@ -22,7 +22,7 @@ to the require section of your composer.json.
 
 Usage
 ------------
-Once the extension is installed, simply add widget to your page as as follows:
+Once the extension is installed, simply add widget to your page as follows:
 
 ```php
 echo yii2mod\tree\Tree::widget([
