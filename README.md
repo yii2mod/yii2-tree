@@ -52,6 +52,12 @@ echo yii2mod\tree\Tree::widget([
             'options' => [
                 'autoCollapse' => true,
                 'clickFolderMode' => 3,
+                 'activate' => new \yii\web\JsExpression('
+                        function(node, data) {
+                              node  = data.node;
+                              console.log(node.data.title + " - Node title");
+                        }
+                ')
             ]
         ]);
         
