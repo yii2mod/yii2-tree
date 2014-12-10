@@ -1,0 +1,21 @@
+{
+    "name": "yii2mod/yii2-tree",
+    "description": "Tree widget based on jQuery Dynatree extension {@link http://wwwendt.de/tech/dynatree/index.html)",
+    "type": "yii2-extension",
+    "keywords": ["yii2", "module"],
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Igor Chepurnoy",
+            "email": "igorzfort@gmail.com"
+        }
+    ],
+    "require": {
+        "bower-asset/dynatree" : "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii2mod\\tree\\": ""
+        }
+    }
+}
