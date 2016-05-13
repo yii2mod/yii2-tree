@@ -1,6 +1,8 @@
 Tree Widget for Yii 2
-=========
-- Tree widget based on Fancytree extension http://wwwendt.de/tech/fancytree/demo/#sample-default.html
+====================
+Tree widget based on Fancytree extension http://wwwendt.de/tech/fancytree/demo/#sample-default.html
+
+[![Latest Stable Version](https://poser.pugx.org/yii2mod/yii2-tree/v/stable)](https://packagist.org/packages/yii2mod/yii2-tree) [![Total Downloads](https://poser.pugx.org/yii2mod/yii2-tree/downloads)](https://packagist.org/packages/yii2mod/yii2-tree) [![License](https://poser.pugx.org/yii2mod/yii2-tree/license)](https://packagist.org/packages/yii2mod/yii2-tree)
 
 
 Installation
