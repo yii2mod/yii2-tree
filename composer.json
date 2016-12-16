@@ -1,8 +1,12 @@
 {
     "name": "yii2mod/yii2-tree",
-    "description": "Tree widget based on Fancytree extension {@link http://wwwendt.de/tech/fancytree/demo/#sample-default.html)",
+    "description": "Tree widget based on Fancytree plugin.",
     "type": "yii2-extension",
-    "keywords": ["yii2", "module"],
+    "keywords": [
+        "yii2",
+        "extension",
+        "tree"
+    ],
     "license": "MIT",
     "authors": [
         {
@@ -12,7 +16,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
-        "bower-asset/fancytree" : "*"
+        "bower-asset/fancytree": "*"
     },
     "autoload": {
         "psr-4": {
