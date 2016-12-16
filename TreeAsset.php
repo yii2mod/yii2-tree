@@ -5,8 +5,11 @@ namespace yii2mod\tree;
 use yii\web\AssetBundle;
 
 /**
- * Class TreeAsset
- * @package yii2mod\tree
+ * TreeAsset bundle
+ *
+ * @author Igor Chepurnoy <chepurnoi.igor@gmail.com>
+ *
+ * @since 1.0
  */
 class TreeAsset extends AssetBundle
 {
@@ -19,7 +22,7 @@ class TreeAsset extends AssetBundle
      * @var array
      */
     public $css = [
-        'fancytree/dist/skin-lion/ui.fancytree.css'
+        'fancytree/dist/skin-lion/ui.fancytree.css',
     ];
 
     /**
@@ -34,6 +37,6 @@ class TreeAsset extends AssetBundle
      * @var array
      */
     public $depends = [
-        'app\assets\AppAsset',
+        'yii\web\YiiAsset',
     ];
 }

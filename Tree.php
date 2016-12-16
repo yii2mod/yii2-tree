@@ -2,76 +2,60 @@
 
 namespace yii2mod\tree;
 
-use yii2mod\tree\TreeAsset;
-use Yii;
 use yii\base\Widget;
 use yii\helpers\Html;
 use yii\helpers\Json;
 
 /**
- * Tree widget based on Fancytree extension {@link http://wwwendt.de/tech/fancytree/demo/#sample-default.html)
+ * Yii2 wrapper for Fancytree plugin.
  *
- * Class Tree
- * @package app\widgets\tree
+ * @author Igor Chepurnoy <chepurnoi.igor@gmail.com>
+ *
+ * @since 1.0
  */
 class Tree extends Widget
 {
-
     /**
-     * List of categories
-     * @var
+     * @var array list of categories
      */
     public $items = [];
 
     /**
-     * container div tag id
-     * @var mixed
+     * @var string container id
      */
     public $id = 'tree';
 
     /**
-     * Plugin options
      * @var array
      */
-    public $options = [];
-
-
-    /**
-     * Initializes the widget
-     */
-    public function init()
-    {
-        parent::init();
-    }
+    public $clientOptions = [];
 
     /**
-     * Render tree
-     * @return string|void
+     * Executes the widget.
      */
     public function run()
     {
-        $this->options['source'] = $this->items;
+        $this->clientOptions['source'] = $this->items;
         echo Html::tag('div', '', ['id' => $this->id]);
         $this->registerAssets();
     }
 
     /**
-     * Register client assets
+     * Register assets
      */
     protected function registerAssets()
     {
         $view = $this->getView();
         TreeAsset::register($view);
-        $js = '$("#' . $this->id . '").fancytree(' . $this->getOptions() . ');';
+        $js = '$("#' . $this->id . '").fancytree(' . $this->getClientOptions() . ');';
         $view->registerJs($js, $view::POS_END);
     }
 
     /**
-     * Get plugin options
      * @return string
      */
-    public function getOptions()
+    public function getClientOptions()
     {
-        return Json::encode($this->options);
+        return Json::encode($this->clientOptions);
     }
 }
