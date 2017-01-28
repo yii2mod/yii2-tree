@@ -16,27 +16,26 @@ class TreeAsset extends AssetBundle
     /**
      * @var string
      */
-    public $sourcePath = '@bower';
+    public $sourcePath = '@bower/fancytree/dist';
 
     /**
      * @var array
      */
     public $css = [
-        'fancytree/dist/skin-lion/ui.fancytree.css',
+        'skin-lion/ui.fancytree.css',
     ];
 
     /**
      * @var array
      */
     public $js = [
-        'jquery-ui/jquery-ui.js',
-        'fancytree/dist/jquery.fancytree.js',
+        'jquery.fancytree.js',
     ];
 
     /**
      * @var array
      */
     public $depends = [
-        'yii\web\YiiAsset',
+        'yii\jui\JuiAsset',
     ];
 }
