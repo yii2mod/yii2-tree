@@ -16,6 +16,7 @@
     ],
     "require": {
         "yiisoft/yii2": "*",
+        "yiisoft/yii2-jui": "~2.0.0",
         "bower-asset/fancytree": "*"
     },
     "require-dev": {
