@@ -10,8 +10,8 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "Igor Chepurnoy",
-            "email": "igorzfort@gmail.com"
+            "name": "Igor Chepurnoi",
+            "email": "chepurnoi.igor@gmail.com"
         }
     ],
     "require": {
@@ -26,5 +26,11 @@
         "psr-4": {
             "yii2mod\\tree\\": ""
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
 }

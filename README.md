@@ -1,5 +1,11 @@
-Tree Widget for Yii 2
-====================
+<p align="center">
+    <a href="https://github.com/yiisoft" target="_blank">
+        <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
+    </a>
+    <h1 align="center">Yii2 Tree Widget</h1>
+    <br>
+</p>
+
 Tree widget based on Fancytree extension http://wwwendt.de/tech/fancytree/demo/#sample-default.html
 
 [![Latest Stable Version](https://poser.pugx.org/yii2mod/yii2-tree/v/stable)](https://packagist.org/packages/yii2mod/yii2-tree) 
@@ -21,7 +27,7 @@ php composer.phar require --prefer-dist yii2mod/yii2-tree "*"
 
 or add
 
-```json
+```
 "yii2mod/yii2-tree": "*"
 ```
 

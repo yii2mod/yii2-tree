@@ -9,7 +9,7 @@ use yii\helpers\Json;
 /**
  * Yii2 wrapper for Fancytree plugin.
  *
- * @author Igor Chepurnoy <chepurnoi.igor@gmail.com>
+ * @author Igor Chepurnoi <chepurnoi.igor@gmail.com>
  *
  * @since 1.0
  */

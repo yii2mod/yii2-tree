@@ -7,7 +7,7 @@ use yii\web\AssetBundle;
 /**
  * TreeAsset bundle
  *
- * @author Igor Chepurnoy <chepurnoi.igor@gmail.com>
+ * @author Igor Chepurnoi <chepurnoi.igor@gmail.com>
  *
  * @since 1.0
  */
