@@ -75,3 +75,21 @@ Once the extension is installed, simply add widget to your page as follows:
             ],
         ]); ?>
 ```
+
+
+**You can also change the theme of Fancytree extension!**
+
+To change the theme, you can configure the assetManager array in your application configuration:
+```php
+// skin-win8
+
+'assetManager' => [
+    'bundles' => [
+        'yii2mod\tree\TreeAsset' => [
+            'css' => [
+                'skin-win8/ui.fancytree.less',
+            ]
+        ],
+    ],
+]
+```
