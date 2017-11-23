@@ -29,7 +29,7 @@ class TreeAsset extends AssetBundle
      * @var array
      */
     public $js = [
-        'jquery.fancytree.js',
+        'jquery.fancytree-all.js',
     ];
 
     /**
